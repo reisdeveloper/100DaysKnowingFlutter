@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hundreddaysknowingflutter/1day.dart';
+import 'package:hundreddaysknowingflutter/one_day.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: '100 Days Knowing Flutter',
-      home: OneDay(),
+      theme: ThemeData(fontFamily: 'Roboto'),
+      home: const OneDay(),
     );
   }
 }
